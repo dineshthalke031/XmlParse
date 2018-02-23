@@ -1,0 +1,2021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BrokerageAccount>
+	<ProcessID>1</ProcessID>
+	<SourceAndReferralInfo>
+		<PlanIDfor401K />
+		<FAFirstName />
+		<FaLastName />
+		<BranchFANumber />
+		<BranchPrefix />
+		<RolloverInstructions />
+		<ClientWillTakeMoneyOutAfterRolloverInd>N
+		</ClientWillTakeMoneyOutAfterRolloverInd>
+		<AmountTakingOutAfterRollover />
+		<OfferData>
+			<OfferArray>
+				<Offer>
+					<Code>-AAAAA</Code>
+					<MarketingOfferCode>$111 AAAA AAAAA</MarketingOfferCode>
+					<Source>REP1A1</Source>
+				</Offer>
+			</OfferArray>
+		</OfferData>
+		<RepData>
+			<RepName>aa</RepName>
+			<IsRepInitiated>Y</IsRepInitiated>
+			<RepBossId>1A11111</RepBossId>
+		</RepData>
+		<ConsiderationData />
+	</SourceAndReferralInfo>
+	<PartyRelationshipInfo>
+		<BrokeragePartyProfileArray
+			xmlns:ns1="http://schemas.ml.com/CCP/Account/Objects/Party/BrokeragePartyProfile_v2_0/">
+			<BrokeragePartyProfile ikhTxType="N">
+				<PartyID />
+				<Capacity>CLIENT</Capacity>
+				<AMLRoleCode>K</AMLRoleCode>
+				<Profile txType="C">
+					<GlobalIdentifier
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile"
+						Type="MasterProfileId">A111111111</GlobalIdentifier>
+					<PATHKey xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Key xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">
+							<KeyName>PathClientNo</KeyName>
+							<KeyValue>111111111</KeyValue>
+						</Key>
+					</PATHKey>
+					<SFDCKey xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<Address xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile"
+						txType="C">
+						<AddressKey xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">NEW_ADDR_a111aaaa-11aa-1a11-aa11-1a111111a1aa
+						</AddressKey>
+						<AddressTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">AAA</AddressTypeCode>
+						<AttentionInd
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<Attention xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<AddressCheckInd
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">Y</AddressCheckInd>
+						<City xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">AAAAAA</City>
+						<CareOfInd xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<CareOf xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<Country xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">
+							<Code>840</Code>
+						</Country>
+						<IsForeignAddress
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">false</IsForeignAddress>
+						<ResidentialInd
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">false</ResidentialInd>
+						<Line xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">1111 AAAAA AAA</Line>
+						<Line xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<State xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">AA</State>
+						<VerifiedValidInd
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">Y</VerifiedValidInd>
+						<Zip xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">11111-1111</Zip>
+						<PreferredAddressDeliveryInd
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">N</PreferredAddressDeliveryInd>
+					</Address>
+					<Address xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile"
+						txType="C">
+						<AddressKey xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">NEW_ADDR_a111aaaa-11aa-1a11-aa11-1a111111a1aa
+						</AddressKey>
+						<AddressTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">AA</AddressTypeCode>
+						<AttentionInd
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<AddressCheckInd
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">Y</AddressCheckInd>
+						<City xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">AAAAAA</City>
+						<CareOfInd xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<Country xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">
+							<Code>840</Code>
+						</Country>
+						<IsForeignAddress
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">false</IsForeignAddress>
+						<ResidentialInd
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">false</ResidentialInd>
+						<Line xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">1111 BBBB BBB</Line>
+						<Line xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<State xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">AA</State>
+						<VerifiedValidInd
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">Y</VerifiedValidInd>
+						<Zip xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">11111-1111</Zip>
+						<PreferredAddressDeliveryInd
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">Y</PreferredAddressDeliveryInd>
+					</Address>
+					<Address xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile"
+						txType="C">
+						<AddressKey xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">NEW_ADDR_a111aaaa-11aa-1a11-aa11-1a111111a1aa
+						</AddressKey>
+						<AddressTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">BUS</AddressTypeCode>
+						<AttentionInd
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<Attention xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<AddressCheckInd
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">N</AddressCheckInd>
+						<City xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">SYRACUSE</City>
+						<CareOfInd xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<CareOf xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<Country xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">
+							<Code>840</Code>
+						</Country>
+						<IsForeignAddress
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">false</IsForeignAddress>
+						<ResidentialInd
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">false</ResidentialInd>
+						<Line xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">111 AAAA AAA</Line>
+						<Line xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<State xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">AA</State>
+						<VerifiedValidInd
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">D</VerifiedValidInd>
+						<Zip xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">11111</Zip>
+						<PreferredAddressDeliveryInd
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">N</PreferredAddressDeliveryInd>
+					</Address>
+					<Account xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<AccountInfoKey xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<AccountId xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<AccountTINOwnerInd
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<Address xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<MLAccountNo xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<Name xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common"
+							txType="C">
+							<NameTypeKey
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">fff</NameTypeKey>
+							<BusinessAsName
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<DisplayName
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">fff</DisplayName>
+							<FirstName xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">ff</FirstName>
+							<FullName xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<LastName xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">ffff</LastName>
+							<MiddleName xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">A</MiddleName>
+							<MainNameInd
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">Y</MainNameInd>
+							<Suffix xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<Suffix xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<Title xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						</Name>
+					</Account>
+					<ClientStatus xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">P</ClientStatus>
+					<EmailAddress xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile"
+						txType="C">
+						<Address xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">aaa@BUFFALO.EDU</Address>
+						<EmailAddressTypeCodeKey
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<EmailContactPriority
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">Y</EmailContactPriority>
+						<Type xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">HOM</Type>
+						<PreferredEmailDeliveryInd
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">N</PreferredEmailDeliveryInd>
+					</EmailAddress>
+					<EDD xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Description xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">B001</Description>
+					</EDD>
+					<EDD xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Description xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">B002</Description>
+					</EDD>
+					<EDD xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Description xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">B003</Description>
+					</EDD>
+					<EDD xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Description xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">B004</Description>
+					</EDD>
+					<EDD xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Description xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">B005</Description>
+					</EDD>
+					<EDD xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Description xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">B006</Description>
+					</EDD>
+					<Household xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<HHAssets xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<NetWorth Code="A" AmountTypeCode="A">0</NetWorth>
+						</HHAssets>
+						<HouseholdIncome
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common"
+							Code="A" AmountTypeCode="A">0</HouseholdIncome>
+						<HouseholdTotalAssets
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common"
+							Code="A" AmountTypeCode="A">0</HouseholdTotalAssets>
+						<Liabilities xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<Liability Code="" AmountTypeCode="">0</Liability>
+						</Liabilities>
+					</Household>
+					<Name xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile"
+						txType="C">
+						<NameTypeKey xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">aaa[Primary]</NameTypeKey>
+						<BusinessAsName
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<DisplayName xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">aaa A</DisplayName>
+						<FirstName xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">aa</FirstName>
+						<FullName xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<LastName xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">aa</LastName>
+						<MiddleName xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">A</MiddleName>
+						<MainNameInd xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">Y</MainNameInd>
+						<Suffix xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<Suffix xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<Title xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Name>
+					<Person xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile"
+						txType="U">
+						<AnnualSalary xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common"
+							Code="" AmountTypeCode="">0</AnnualSalary>
+						<ClientRelationShip
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<OfficerDirectorInd>N</OfficerDirectorInd>
+							<OfficerDirectorReasonCode />
+						</ClientRelationShip>
+						<CountryOfCitizenship
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common"
+							txType="C">
+							<CountryOfCitizenshipKey
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<CountryOfCitizenship
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">
+								<Code>111</Code>
+								<CountryName>AAA</CountryName>
+							</CountryOfCitizenship>
+							<DisplaySequenceNo
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">1</DisplaySequenceNo>
+						</CountryOfCitizenship>
+						<CountryOfCitizenship
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common"
+							txType="C">
+							<CountryOfCitizenshipKey
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<CountryOfCitizenship
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">
+								<Code />
+							</CountryOfCitizenship>
+							<DisplaySequenceNo
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">2</DisplaySequenceNo>
+						</CountryOfCitizenship>
+						<CountryofResidence
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<Code xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">111</Code>
+							<CountryName>AAAAA</CountryName>
+						</CountryofResidence>
+						<ControlPerson xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<CompanyName />
+							<IsControlPerson>false</IsControlPerson>
+							<StockSymbol />
+						</ControlPerson>
+						<DateOfBirth xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">1111-11-11</DateOfBirth>
+						<DeceasedInd xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<Employment xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common"
+							txType="U">
+							<ClientSpouseFinInstEmpCode />
+							<ClientOtherMemFinInstEmpCode>M</ClientOtherMemFinInstEmpCode>
+							<ClientSpouseFinInstEmpName />
+							<ClientOtherMemFinInstEmpName>AAAA AA
+							</ClientOtherMemFinInstEmpName>
+							<DateOfRetirement>1111-11-11</DateOfRetirement>
+							<EmploymentStatusCode>E</EmploymentStatusCode>
+							<EmployerName>ANY</EmployerName>
+							<EmployerAddress>
+								<City xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">Syracuse</City>
+								<Country xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">
+									<Code>111</Code>
+								</Country>
+								<Line xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">111 AAAA AAA</Line>
+								<Line xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<State xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">AA</State>
+								<SaaInd xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<VerifiedCountry
+									xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Zip xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">11111</Zip>
+								<SensitiveMailingInd
+									xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<PreferredAddressDeliveryInd
+									xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							</EmployerAddress>
+							<EmployerPhone>
+								<Number xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							</EmployerPhone>
+							<EmploymentStartDate>1111-11-11</EmploymentStartDate>
+							<EmployerIndustry />
+							<FormerEmployer />
+							<IndustryCode />
+							<JobTitle />
+							<OccupationCode>53</OccupationCode>
+							<Occupation>Manager</Occupation>
+							<OccupationCategory>01</OccupationCategory>
+						</Employment>
+						<GenderCode xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<GreenCardInd xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<MaritalStatusCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">S</MaritalStatusCode>
+						<MLSRO xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<Code />
+						</MLSRO>
+						<Passport xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common"
+							txType="C">
+							<PassportInfoKey
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<Country xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">
+								<Code>111</Code>
+							</Country>
+							<Expires xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">111-11-11</Expires>
+							<Id xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">111111111</Id>
+							<OtherIDTypeDesc
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<Type xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">02</Type>
+							<StateCode xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">AA</StateCode>
+						</Passport>
+						<Spouse xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<SpouseClientId />
+							<SpouseName>
+								<NameTypeKey
+									xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<FirstName xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<LastName xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<MiddleName
+									xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Suffix xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Suffix xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Title xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							</SpouseName>
+							<SpouseEmpStatusCode />
+							<SpouseEmpName />
+							<TaxId />
+							<ClientStatus />
+						</Spouse>
+						<PersonRelationShip
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<Trading xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<ProductExperience>
+								<MutualFunds
+									xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Equities xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<LimitedPartnerShips
+									xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Bonds xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Options xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Futures xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<None xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">X</None>
+							</ProductExperience>
+							<TradingExperience>N</TradingExperience>
+							<TradingFrequency />
+						</Trading>
+						<TaxCountry xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<Code xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<CountryName
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">AAAAAA</CountryName>
+						</TaxCountry>
+						<IsMLEmployee xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">true</IsMLEmployee>
+						<ClientAffiliation
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common"
+							txType="N">
+							<GroupTypeCode>ARS</GroupTypeCode>
+						</ClientAffiliation>
+						<ClientAffiliation
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common"
+							txType="N">
+							<GroupTypeCode>PAGP</GroupTypeCode>
+						</ClientAffiliation>
+					</Person>
+					<ProducerId xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile"
+						txType="C">
+						<ProducerId xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">22X1000</ProducerId>
+					</ProducerId>
+					<PreferredFANumber
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<ProfileType xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">I</ProfileType>
+					<SourceofRelationShip
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<TaxId xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile"
+						txType="C">
+						<HasApplied xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">false</HasApplied>
+						<Id xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">0111111</Id>
+						<TaxIDType xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">SSN</TaxIDType>
+						<ApplicationTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<ApplicationDate
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">1111-11-11</ApplicationDate>
+					</TaxId>
+					<Telephone xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile"
+						txType="C">
+						<AreaCode xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">111</AreaCode>
+						<Extension xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<Number xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">1111111</Number>
+						<PhoneExchangeNumber
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">111</PhoneExchangeNumber>
+						<Station xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">1111</Station>
+						<Type xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">BUS</Type>
+						<TelephoneContactTimeRange
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Telephone>
+					<Telephone xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile"
+						txType="C">
+						<AreaCode xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">111</AreaCode>
+						<Number xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">1111111</Number>
+						<PhoneExchangeNumber
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">111</PhoneExchangeNumber>
+						<Station xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">1111</Station>
+						<Type xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">HOM</Type>
+					</Telephone>
+					<Telephone xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile"
+						txType="C">
+						<AreaCode xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<Number xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<PhoneExchangeNumber
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<Station xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<Type xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Telephone>
+					<HasSpecialNeeds
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<Assistant xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<FinancialInstitution
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">DLACT</PreferenceTypeCode>
+						<PreferenceValueCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">N</PreferenceValueCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">MLOL</PreferenceTypeCode>
+						<PreferenceValueCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">Y</PreferenceValueCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">PERFREPT</PreferenceTypeCode>
+						<PreferenceValueCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">E</PreferenceValueCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">
+							<ConsentStatusCode>N</ConsentStatusCode>
+							<ConsentStatusDescription>Not Consented
+							</ConsentStatusDescription>
+						</PreferenceConsent>
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">PROSPECT</PreferenceTypeCode>
+						<PreferenceValueCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">E</PreferenceValueCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">
+							<ConsentStatusCode>N</ConsentStatusCode>
+							<ConsentStatusDescription>Not Consented
+							</ConsentStatusDescription>
+						</PreferenceConsent>
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">QRTSTMT</PreferenceTypeCode>
+						<PreferenceValueCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">SERVNOTC</PreferenceTypeCode>
+						<PreferenceValueCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">E</PreferenceValueCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">
+							<ConsentStatusCode>N</ConsentStatusCode>
+							<ConsentStatusDescription>Not Consented
+							</ConsentStatusDescription>
+						</PreferenceConsent>
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">SHARNOTC</PreferenceTypeCode>
+						<PreferenceValueCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">E</PreferenceValueCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">
+							<ConsentStatusCode>N</ConsentStatusCode>
+							<ConsentStatusDescription>Not Consented
+							</ConsentStatusDescription>
+						</PreferenceConsent>
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">STATMENT</PreferenceTypeCode>
+						<PreferenceValueCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">E</PreferenceValueCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">
+							<ConsentStatusCode>N</ConsentStatusCode>
+							<ConsentStatusDescription>Not Consented
+							</ConsentStatusDescription>
+						</PreferenceConsent>
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">TAXREPTG</PreferenceTypeCode>
+						<PreferenceValueCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">E</PreferenceValueCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">
+							<ConsentStatusCode>N</ConsentStatusCode>
+							<ConsentStatusDescription>Not Consented
+							</ConsentStatusDescription>
+						</PreferenceConsent>
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">CONFIRMS</PreferenceTypeCode>
+						<PreferenceValueCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">E</PreferenceValueCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">
+							<ConsentStatusCode>N</ConsentStatusCode>
+							<ConsentStatusDescription>Not Consented
+							</ConsentStatusDescription>
+						</PreferenceConsent>
+					</Preference>
+					<VerificationOfLegalStatus
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<MOVCode xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">NDOC</MOVCode>
+						<MOVText xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">Verified - IDV (Experian)</MOVText>
+						<MOVDate xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">1111-11-11</MOVDate>
+					</VerificationOfLegalStatus>
+					<GovernmentIdentification
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile"
+						txType="C">
+						<GovernmentIdentificationKey
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<Country xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">
+							<Code>840</Code>
+						</Country>
+						<Expires xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">1111-11-11</Expires>
+						<Id xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">111111111</Id>
+						<Issued xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">1111-11-11</Issued>
+						<OtherIDTypeDesc
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<IDTypeCode xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">11</IDTypeCode>
+						<StateCode xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">AA</StateCode>
+					</GovernmentIdentification>
+					<PartyProfileFinancialInfo
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<SourceOfIncome
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes"
+							txType="C">
+							<SOICode>01</SOICode>
+							<OtherSOIText />
+						</SourceOfIncome>
+						<SourceOfWealth
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes"
+							txType="C">
+							<SOWCode>03</SOWCode>
+							<SOWDetailText />
+							<OtherSOWText />
+							<SOWInheritanceDetail />
+						</SourceOfWealth>
+					</PartyProfileFinancialInfo>
+					<LastApprovalDate
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<ProfileNoteInfo
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile"
+						txType="C">
+						<NoteTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">01</NoteTypeCode>
+						<NoteText xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</ProfileNoteInfo>
+					<ChannelSegmentationCode
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">2</ChannelSegmentationCode>
+					<FederalTaxRate xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<EmailAddressPreference
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile"
+						TxType="C">
+						<EmailAddressKey
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<ProfileConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</EmailAddressPreference>
+					<OnboardRiskRanking
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<DynamicRiskRanking
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<ProfileRefresh xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<LastProfileRefreshDate>1111-11-11</LastProfileRefreshDate>
+						<NextProfileRefreshDate>1111-11-11</NextProfileRefreshDate>
+						<LastProfileRefreshAssociateID>
+							<PersonNumber />
+						</LastProfileRefreshAssociateID>
+					</ProfileRefresh>
+					<AMLQuestions xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Extension />
+					</AMLQuestions>
+					<AMLPartyDetail xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile"
+						txType="C">
+						<PoliticallyExposedPartyIn>N</PoliticallyExposedPartyIn>
+						<SourceOfWealthMethodOfVerification>
+							<MethodOfVerificationCode />
+							<MethodOfVerificationOtherText />
+						</SourceOfWealthMethodOfVerification>
+					</AMLPartyDetail>
+					<AMLOrgDetail xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<AMLAssociatedParty
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile"
+						txType="C">
+						<AMLProfilingReasonCode>PEP</AMLProfilingReasonCode>
+						<AssociatedPartyRelationshipTypeCode />
+						<AssociatedPartyRelationshipOtherTypeTx />
+						<AssociatedPartyName />
+						<USTaxID />
+						<AssociatedPartyAddress>
+							<AddressKey />
+							<AddressBasicData />
+						</AssociatedPartyAddress>
+						<PoliticallyExposedPerson>
+							<PEPPositionTitleText />
+							<PEPPositionStartDate>1111-11-11</PEPPositionStartDate>
+							<PEPPositionEndDate>1111-11-11</PEPPositionEndDate>
+							<PEPPositionCountryCode />
+							<PEPCurrentlyInPositionIndicator />
+						</PoliticallyExposedPerson>
+						<SeniorPoliticalFigureInfo>
+							<SPFIsClient />
+							<SPFClientID>
+								<EntityIdTypeCode />
+								<EntityId />
+							</SPFClientID>
+						</SeniorPoliticalFigureInfo>
+					</AMLAssociatedParty>
+					<Extension xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+				</Profile>
+				<CapacityDetailsArray>
+					<CapacityDetails>
+						<PartySequenceNumbers>
+							<SequenceNumber>1</SequenceNumber>
+							<ParentSequenceNumber>1</ParentSequenceNumber>
+						</PartySequenceNumbers>
+						<ParticipantCategory>P</ParticipantCategory>
+						<IsPrimary>Y</IsPrimary>
+						<Capacity>CLIENT</Capacity>
+						<IsCapacityProfiled>Y</IsCapacityProfiled>
+						<FARegistrationCheckRequired>Y</FARegistrationCheckRequired>
+						<IsPrimaryMailingRole>Y</IsPrimaryMailingRole>
+						<AMLRoleCode>K</AMLRoleCode>
+						<IsSignatory />
+						<ProfilingClassificationCode>
+							<Code>FKYC1</Code>
+						</ProfilingClassificationCode>
+						<GFCCCustomerIndicator>Y</GFCCCustomerIndicator>
+					</CapacityDetails>
+				</CapacityDetailsArray>
+				<AccountFeatures>
+					<SequenceNumber>0</SequenceNumber>
+					<ESignatureConfirmation>Y</ESignatureConfirmation>
+					<PartyVerificationInfo>
+						PartyIdentificationInfo
+						<LogCreditScoreInd />
+						<NonResidentInd />
+						<AcctOwnershipTypeCode />
+						<CreditIDCheckLogCreationTimestamp />
+						<PartyIdentificationInfo>
+							<SSN>1111111111</SSN>
+							<IsPrimary>Y</IsPrimary>
+							<TUPrimaryResponseCode />
+							<IDVResponseIdentifier>1SPI111111111111111111111
+							</IDVResponseIdentifier>
+							<IDVVendorSessionID />
+							<IDVDecisionCode>ACCEPT</IDVDecisionCode>
+							<IDVSubDecisionCode />
+							<OOWSuggestedIndicator>false</OOWSuggestedIndicator>
+							<OOWDecisionCode>Any</OOWDecisionCode>
+							<OOWEnhancedIdentityValidationArray />
+							<PreciseIDScore>111</PreciseIDScore>
+							<FraudShieldCodeArray>
+								<FraudShield>
+									<FraudShieldCode>FS05</FraudShieldCode>
+									<FraudShieldDescription>INQUIRY/ONLFILE CURRENT ADDRESS
+										CONFLICT
+									</FraudShieldDescription>
+								</FraudShield>
+							</FraudShieldCodeArray>
+							<CIPMatchInfo>
+								<NameMatchInd>true</NameMatchInd>
+								<AddressMatchInd>true</AddressMatchInd>
+								<DOBMatchInd>true</DOBMatchInd>
+								<SSNMatchInd>true</SSNMatchInd>
+								<OverAllMatchInd>true</OverAllMatchInd>
+							</CIPMatchInfo>
+						</PartyIdentificationInfo>
+						<IsSRO>Y</IsSRO>
+					</PartyVerificationInfo>
+				</AccountFeatures>
+				<NRAData />
+				<AMLVerificationInfo>
+					<AMLFlag>N</AMLFlag>
+					<RoutingCode>MGR</RoutingCode>
+					<StatusArray>
+						<Status
+							xmlns:ns2="http://schemas.ml.com/DataServices/Objects/Common/StatusInfo_v1_1/">
+							<Source>S</Source>
+							<SourceDetail>ORR</SourceDetail>
+							<Code>HIGHRISK</Code>
+							<BusinessDescription>S</BusinessDescription>
+						</Status>
+						<Status
+							xmlns:ns2="http://schemas.ml.com/DataServices/Objects/Common/StatusInfo_v1_1/">
+							<Source>S</Source>
+							<SourceDetail>DRR</SourceDetail>
+							<Code>HIGHRISK</Code>
+							<BusinessDescription>S</BusinessDescription>
+						</Status>
+					</StatusArray>
+				</AMLVerificationInfo>
+				<WipPartyIndex>0</WipPartyIndex>
+				<ConfidenceLevel />
+				<FAInfo>
+					<Name
+						xmlns:ns2="http://schemas.ml.com/CCP/Account/Datatypes/PartyDatatypes_v1_2/" />
+					<PhoneNumber
+						xmlns:ns2="http://schemas.ml.com/CCP/Account/Datatypes/PartyDatatypes_v1_2/" />
+					<OfficeName
+						xmlns:ns2="http://schemas.ml.com/CCP/Account/Datatypes/PartyDatatypes_v1_2/" />
+				</FAInfo>
+				<PrefillProfileInfo />
+				<ProfilingClassificationCode>
+					<Code>FKYC1</Code>
+				</ProfilingClassificationCode>
+				<DocData>
+					<DocumentInfo>
+						<DocName>lester, sarah.pdf</DocName>
+						<DocUniqueID>lester,sarah1502302159059</DocUniqueID>
+						<DocSystemID>fae1111a-11a1-111a-a11a-a11111111a11</DocSystemID>
+						<DocCode>iradoc11</DocCode>
+						<DocUserDescription>lester, sarah.pdf</DocUserDescription>
+						<DocSize>111111</DocSize>
+						<UploadedBy>OAO1</UploadedBy>
+						<UploadedTime>0001-01-01T00:00:00</UploadedTime>
+						<StatusList>
+							<Status xmlns:ns2="http://schemas.ml.com/CCP/Standards/Status/Status_v1_0/" />
+						</StatusList>
+					</DocumentInfo>
+					<DocumentInfo>
+						<StatusList />
+					</DocumentInfo>
+					<DocumentInfo>
+						<StatusList />
+					</DocumentInfo>
+					<DocumentInfo>
+						<DocName>ONLCRA.pdf</DocName>
+						<DocUniqueID>ONLCRA1111111111111</DocUniqueID>
+						<DocCode>ONLCRA</DocCode>
+						<DocUserDescription>ONLCRA.pdf</DocUserDescription>
+						<StatusList>
+							<Status xmlns:ns2="http://schemas.ml.com/CCP/Standards/Status/Status_v1_0/" />
+						</StatusList>
+					</DocumentInfo>
+					<DocumentInfo>
+						<StatusList />
+					</DocumentInfo>
+				</DocData>
+			</BrokeragePartyProfile>
+			<BrokeragePartyProfile ikhTxType="N">
+				<PartyID />
+				<Capacity>RETBEN</Capacity>
+				<AMLRoleCode>N</AMLRoleCode>
+				<Profile txType="N">
+					<Account xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<AccountInfoKey xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<AccountId xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<AccountTINOwnerInd
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<Address xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<MLAccountNo xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<Name xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<NameTypeKey
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<FirstName xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">ddd</FirstName>
+							<FullName xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<LastName xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">Lester</LastName>
+							<MiddleName xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">W</MiddleName>
+							<MainNameInd
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">Y</MainNameInd>
+							<Suffix xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<Title xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						</Name>
+					</Account>
+					<ClientStatus xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">P</ClientStatus>
+					<EmailAddress xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<EmailAddressTypeCodeKey
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<PreferredEmailDeliveryInd
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</EmailAddress>
+					<EDD xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Description xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">B001</Description>
+					</EDD>
+					<EDD xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Description xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">B002</Description>
+					</EDD>
+					<EDD xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Description xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">B003</Description>
+					</EDD>
+					<EDD xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Description xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">B004</Description>
+					</EDD>
+					<EDD xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Description xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">B005</Description>
+					</EDD>
+					<EDD xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Description xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">B006</Description>
+					</EDD>
+					<Household xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<HHAssets xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<NetWorth>0</NetWorth>
+						</HHAssets>
+						<HouseholdIncome
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">0</HouseholdIncome>
+						<HouseholdTotalAssets
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">0</HouseholdTotalAssets>
+						<Liabilities xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<Liability>0</Liability>
+						</Liabilities>
+					</Household>
+					<Name xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<NameTypeKey xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<FirstName xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">ddd</FirstName>
+						<FullName xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<LastName xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">Lester</LastName>
+						<MiddleName xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">W</MiddleName>
+						<MainNameInd xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">Y</MainNameInd>
+						<Suffix xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<Title xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Name>
+					<Person xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile"
+						txType="N">
+						<AnnualSalary xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">0</AnnualSalary>
+						<ClientRelationShip
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<CountryOfCitizenship
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<CountryOfCitizenshipKey
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<CountryOfCitizenship
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">
+								<Code>111</Code>
+								<CountryName>AAAAAA</CountryName>
+							</CountryOfCitizenship>
+							<DisplaySequenceNo
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">1</DisplaySequenceNo>
+						</CountryOfCitizenship>
+						<CountryOfCitizenship
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<CountryOfCitizenshipKey
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<CountryOfCitizenship
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<DisplaySequenceNo
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">2</DisplaySequenceNo>
+						</CountryOfCitizenship>
+						<CountryofResidence
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<Code xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">111</Code>
+						</CountryofResidence>
+						<ControlPerson xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<CompanyName />
+							<StockSymbol />
+						</ControlPerson>
+						<DateOfBirth xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">1111-11-11</DateOfBirth>
+						<DeceasedInd xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<Employment xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<ClientSpouseFinInstEmpCode />
+							<ClientSpouseFinInstEmpName />
+							<ClientOtherMemFinInstEmpName />
+							<EmployerAddress>
+								<SaaInd xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							</EmployerAddress>
+							<EmployerPhone />
+							<EmployerIndustry />
+							<FormerEmployer />
+							<Occupation />
+						</Employment>
+						<GreenCardInd xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">N</GreenCardInd>
+						<MLSRO xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<Passport xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<PassportInfoKey
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<Country xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						</Passport>
+						<Spouse xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<SpouseClientId />
+							<SpouseName>
+								<NameTypeKey
+									xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<FirstName xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<LastName xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<MiddleName
+									xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Suffix xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Suffix xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Title xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							</SpouseName>
+							<SpouseEmpStatusCode />
+							<SpouseEmpName />
+							<TaxId />
+							<ClientStatus />
+						</Spouse>
+						<PersonRelationShip
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<Trading xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<ProductExperience>
+								<MutualFunds
+									xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Equities xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<LimitedPartnerShips
+									xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Bonds xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Options xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Futures xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<None xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">X</None>
+							</ProductExperience>
+							<TradingExperience>N</TradingExperience>
+							<TradingFrequency />
+						</Trading>
+						<ClientAffiliation
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common"
+							txType="N">
+							<GroupTypeCode>ARS</GroupTypeCode>
+						</ClientAffiliation>
+						<ClientAffiliation
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common"
+							txType="N">
+							<GroupTypeCode>PAGP</GroupTypeCode>
+						</ClientAffiliation>
+					</Person>
+					<ProfileType xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">I</ProfileType>
+					<SourceofRelationShip
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<ReferredByName xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<ReferralRelationshipToClient
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+					</SourceofRelationShip>
+					<TaxId xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Id xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">1111111111</Id>
+						<TaxIDType xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">SSN</TaxIDType>
+						<ApplicationDate
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">1111-11-11</ApplicationDate>
+					</TaxId>
+					<Telephone xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<Telephone xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<Telephone xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<Assistant xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<FinancialInstitution
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">DLACT</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">MLOL</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">QRTSTMT</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">PERFREPT</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">PROSPECT</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">SERVNOTC</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">SHARNOTC</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">STATMENT</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">TAXREPTG</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">CONFIRMS</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<VerificationOfLegalStatus
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<MOVCode xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<MOVText xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<MOVDate xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">1111-11-11</MOVDate>
+					</VerificationOfLegalStatus>
+					<GovernmentIdentification
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<GovernmentIdentificationKey
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<Country xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<Expires xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">1111-11-11</Expires>
+						<Issued xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">1111-11-11</Issued>
+					</GovernmentIdentification>
+					<PartyProfileFinancialInfo
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<SourceOfIncome
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<SourceOfWealth
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">
+							<SOWInheritanceDetail />
+						</SourceOfWealth>
+					</PartyProfileFinancialInfo>
+					<ProfileNoteInfo
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<ChannelSegmentationCode
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">2</ChannelSegmentationCode>
+					<EmailAddressPreference
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<EmailAddressKey
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<ProfileConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</EmailAddressPreference>
+					<OnboardRiskRanking
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<DynamicRiskRanking
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<ProfileRefresh xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<LastProfileRefreshAssociateID>
+							<PersonNumber />
+						</LastProfileRefreshAssociateID>
+					</ProfileRefresh>
+					<AMLQuestions xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Extension />
+					</AMLQuestions>
+					<AMLPartyDetail xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<SourceOfWealthMethodOfVerification />
+					</AMLPartyDetail>
+					<AMLOrgDetail xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<Extension xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+				</Profile>
+				<CapacityDetailsArray>
+					<CapacityDetails>
+						<PartySequenceNumbers>
+							<SequenceNumber>2</SequenceNumber>
+							<ParentSequenceNumber>1</ParentSequenceNumber>
+						</PartySequenceNumbers>
+						<ParticipantCategory>O</ParticipantCategory>
+						<IsPrimary>N</IsPrimary>
+						<Capacity>RETBEN</Capacity>
+						<IsCapacityProfiled>N</IsCapacityProfiled>
+						<FARegistrationCheckRequired>N</FARegistrationCheckRequired>
+						<BeneficiaryDetails>
+							<Relationship>N</Relationship>
+							<Type>P</Type>
+							<Percent>100</Percent>
+							<BeneficiaryDesignation>N</BeneficiaryDesignation>
+						</BeneficiaryDetails>
+						<IsPrimaryMailingRole>N</IsPrimaryMailingRole>
+						<AMLRoleCode>N</AMLRoleCode>
+						<IsSignatory />
+						<ProfilingClassificationCode>
+							<Code>MCIP</Code>
+						</ProfilingClassificationCode>
+						<GFCCCustomerIndicator>N</GFCCCustomerIndicator>
+					</CapacityDetails>
+				</CapacityDetailsArray>
+				<AccountFeatures>
+					<SequenceNumber>0</SequenceNumber>
+				</AccountFeatures>
+				<NRAData />
+				<AMLVerificationInfo>
+					<AMLFlag>N</AMLFlag>
+					<RoutingCode>MGR</RoutingCode>
+					<StatusArray />
+				</AMLVerificationInfo>
+				<WipPartyIndex>1</WipPartyIndex>
+				<ConfidenceLevel />
+				<FAInfo>
+					<Name
+						xmlns:ns2="http://schemas.ml.com/CCP/Account/Datatypes/PartyDatatypes_v1_2/" />
+					<PhoneNumber
+						xmlns:ns2="http://schemas.ml.com/CCP/Account/Datatypes/PartyDatatypes_v1_2/" />
+					<OfficeName
+						xmlns:ns2="http://schemas.ml.com/CCP/Account/Datatypes/PartyDatatypes_v1_2/" />
+				</FAInfo>
+				<PrefillProfileInfo />
+				<ProfilingClassificationCode>
+					<Code>MCIP</Code>
+				</ProfilingClassificationCode>
+			</BrokeragePartyProfile>
+			<BrokeragePartyProfile ikhTxType="N">
+				<PartyID />
+				<Capacity>RETBEN</Capacity>
+				<AMLRoleCode>N</AMLRoleCode>
+				<Profile txType="N">
+					<Account xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<AccountInfoKey xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<AccountId xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<AccountTINOwnerInd
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<Address xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<MLAccountNo xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<Name xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<NameTypeKey
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<FirstName xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">sss</FirstName>
+							<FullName xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<LastName xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">Lester</LastName>
+							<MiddleName xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<MainNameInd
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">Y</MainNameInd>
+							<Suffix xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<Title xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						</Name>
+					</Account>
+					<ClientStatus xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">P</ClientStatus>
+					<EmailAddress xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<EmailAddressTypeCodeKey
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<PreferredEmailDeliveryInd
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</EmailAddress>
+					<EDD xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Description xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">B001</Description>
+					</EDD>
+					<EDD xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Description xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">B002</Description>
+					</EDD>
+					<EDD xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Description xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">B003</Description>
+					</EDD>
+					<EDD xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Description xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">B004</Description>
+					</EDD>
+					<EDD xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Description xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">B005</Description>
+					</EDD>
+					<EDD xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Description xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">B006</Description>
+					</EDD>
+					<Household xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<HHAssets xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<NetWorth>0</NetWorth>
+						</HHAssets>
+						<HouseholdIncome
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">0</HouseholdIncome>
+						<HouseholdTotalAssets
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">0</HouseholdTotalAssets>
+						<Liabilities xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<Liability>0</Liability>
+						</Liabilities>
+					</Household>
+					<Name xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<NameTypeKey xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<FirstName xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">ddd</FirstName>
+						<FullName xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<LastName xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">Lester</LastName>
+						<MiddleName xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<MainNameInd xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">Y</MainNameInd>
+						<Suffix xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<Title xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Name>
+					<Person xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile"
+						txType="N">
+						<AnnualSalary xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">0</AnnualSalary>
+						<ClientRelationShip
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<CountryofResidence
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<Code xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">111</Code>
+						</CountryofResidence>
+						<ControlPerson xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<CompanyName />
+							<StockSymbol />
+						</ControlPerson>
+						<DateOfBirth xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">1111-11-11</DateOfBirth>
+						<DeceasedInd xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<Employment xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<ClientSpouseFinInstEmpCode />
+							<ClientSpouseFinInstEmpName />
+							<ClientOtherMemFinInstEmpName />
+							<EmployerAddress>
+								<SaaInd xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							</EmployerAddress>
+							<EmployerPhone />
+							<EmployerIndustry />
+							<FormerEmployer />
+							<Occupation />
+						</Employment>
+						<GreenCardInd xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">N</GreenCardInd>
+						<MLSRO xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<Passport xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<PassportInfoKey
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<Country xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						</Passport>
+						<Spouse xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<SpouseClientId />
+							<SpouseName>
+								<NameTypeKey
+									xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<FirstName xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<LastName xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<MiddleName
+									xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Suffix xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Suffix xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Title xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							</SpouseName>
+							<SpouseEmpStatusCode />
+							<SpouseEmpName />
+							<TaxId />
+							<ClientStatus />
+						</Spouse>
+						<PersonRelationShip
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<Trading xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<ProductExperience>
+								<MutualFunds
+									xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Equities xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<LimitedPartnerShips
+									xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Bonds xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Options xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Futures xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<None xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">X</None>
+							</ProductExperience>
+							<TradingExperience>N</TradingExperience>
+							<TradingFrequency />
+						</Trading>
+						<ClientAffiliation
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common"
+							txType="N">
+							<GroupTypeCode>ARS</GroupTypeCode>
+						</ClientAffiliation>
+						<ClientAffiliation
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common"
+							txType="N">
+							<GroupTypeCode>PAGP</GroupTypeCode>
+						</ClientAffiliation>
+					</Person>
+					<ProfileType xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">I</ProfileType>
+					<SourceofRelationShip
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<ReferredByName xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<ReferralRelationshipToClient
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+					</SourceofRelationShip>
+					<TaxId xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Id xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">111111111</Id>
+						<TaxIDType xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">SSN</TaxIDType>
+						<ApplicationDate
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">1111-11-11</ApplicationDate>
+					</TaxId>
+					<Telephone xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<Telephone xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<Telephone xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<Assistant xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<FinancialInstitution
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">DLACT</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">MLOL</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">QRTSTMT</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">PERFREPT</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">PROSPECT</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">SERVNOTC</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">SHARNOTC</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">STATMENT</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">TAXREPTG</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">CONFIRMS</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<VerificationOfLegalStatus
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<MOVCode xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<MOVText xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<MOVDate xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">1111-11-11</MOVDate>
+					</VerificationOfLegalStatus>
+					<GovernmentIdentification
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<GovernmentIdentificationKey
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<Country xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<Expires xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">1111-11-11</Expires>
+						<Issued xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">1111-11-11</Issued>
+					</GovernmentIdentification>
+					<PartyProfileFinancialInfo
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<SourceOfIncome
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<SourceOfWealth
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">
+							<SOWInheritanceDetail />
+						</SourceOfWealth>
+					</PartyProfileFinancialInfo>
+					<ProfileNoteInfo
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<ChannelSegmentationCode
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">2</ChannelSegmentationCode>
+					<EmailAddressPreference
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<EmailAddressKey
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<ProfileConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</EmailAddressPreference>
+					<OnboardRiskRanking
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<DynamicRiskRanking
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<ProfileRefresh xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<LastProfileRefreshAssociateID>
+							<PersonNumber />
+						</LastProfileRefreshAssociateID>
+					</ProfileRefresh>
+					<AMLQuestions xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Extension />
+					</AMLQuestions>
+					<AMLPartyDetail xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<SourceOfWealthMethodOfVerification />
+					</AMLPartyDetail>
+					<AMLOrgDetail xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<Extension xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+				</Profile>
+				<CapacityDetailsArray>
+					<CapacityDetails>
+						<PartySequenceNumbers>
+							<SequenceNumber>3</SequenceNumber>
+							<ParentSequenceNumber>1</ParentSequenceNumber>
+						</PartySequenceNumbers>
+						<ParticipantCategory>O</ParticipantCategory>
+						<IsPrimary>N</IsPrimary>
+						<Capacity>RETBEN</Capacity>
+						<IsCapacityProfiled>N</IsCapacityProfiled>
+						<FARegistrationCheckRequired>N</FARegistrationCheckRequired>
+						<BeneficiaryDetails>
+							<Relationship>N</Relationship>
+							<Type>C</Type>
+							<Percent>50</Percent>
+							<BeneficiaryDesignation>N</BeneficiaryDesignation>
+						</BeneficiaryDetails>
+						<IsPrimaryMailingRole>N</IsPrimaryMailingRole>
+						<AMLRoleCode>N</AMLRoleCode>
+						<IsSignatory />
+						<ProfilingClassificationCode>
+							<Code>MCIP</Code>
+						</ProfilingClassificationCode>
+						<GFCCCustomerIndicator>N</GFCCCustomerIndicator>
+					</CapacityDetails>
+				</CapacityDetailsArray>
+				<AccountFeatures>
+					<SequenceNumber>0</SequenceNumber>
+				</AccountFeatures>
+				<NRAData />
+				<AMLVerificationInfo>
+					<AMLFlag>N</AMLFlag>
+					<RoutingCode>MGR</RoutingCode>
+					<StatusArray />
+				</AMLVerificationInfo>
+				<WipPartyIndex>2</WipPartyIndex>
+				<ConfidenceLevel />
+				<FAInfo>
+					<Name
+						xmlns:ns2="http://schemas.ml.com/CCP/Account/Datatypes/PartyDatatypes_v1_2/" />
+					<PhoneNumber
+						xmlns:ns2="http://schemas.ml.com/CCP/Account/Datatypes/PartyDatatypes_v1_2/" />
+					<OfficeName
+						xmlns:ns2="http://schemas.ml.com/CCP/Account/Datatypes/PartyDatatypes_v1_2/" />
+				</FAInfo>
+				<PrefillProfileInfo />
+				<ProfilingClassificationCode>
+					<Code>MCIP</Code>
+				</ProfilingClassificationCode>
+			</BrokeragePartyProfile>
+			<BrokeragePartyProfile ikhTxType="N">
+				<PartyID />
+				<Capacity>RETBEN</Capacity>
+				<AMLRoleCode>N</AMLRoleCode>
+				<Profile txType="N">
+					<Account xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<AccountInfoKey xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<AccountId xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<AccountTINOwnerInd
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<Address xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<MLAccountNo xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<Name xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<NameTypeKey
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<FirstName xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">Wrty</FirstName>
+							<FullName xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<LastName xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">Lester</LastName>
+							<MiddleName xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">R</MiddleName>
+							<MainNameInd
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">Y</MainNameInd>
+							<Suffix xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<Title xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						</Name>
+					</Account>
+					<ClientStatus xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">P</ClientStatus>
+					<EmailAddress xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<EmailAddressTypeCodeKey
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<PreferredEmailDeliveryInd
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</EmailAddress>
+					<EDD xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Description xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">B001</Description>
+					</EDD>
+					<EDD xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Description xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">B002</Description>
+					</EDD>
+					<EDD xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Description xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">B003</Description>
+					</EDD>
+					<EDD xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Description xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">B004</Description>
+					</EDD>
+					<EDD xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Description xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">B005</Description>
+					</EDD>
+					<EDD xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Description xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">B006</Description>
+					</EDD>
+					<Household xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<HHAssets xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<NetWorth>0</NetWorth>
+						</HHAssets>
+						<HouseholdIncome
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">0</HouseholdIncome>
+						<HouseholdTotalAssets
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">0</HouseholdTotalAssets>
+						<Liabilities xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<Liability>0</Liability>
+						</Liabilities>
+					</Household>
+					<Name xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<NameTypeKey xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<FirstName xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">Wrty</FirstName>
+						<FullName xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<LastName xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">Lester</LastName>
+						<MiddleName xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">R</MiddleName>
+						<MainNameInd xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">Y</MainNameInd>
+						<Suffix xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<Title xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Name>
+					<Person xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile"
+						txType="N">
+						<AnnualSalary xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">0</AnnualSalary>
+						<ClientRelationShip
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<CountryOfCitizenship
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<CountryOfCitizenshipKey
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<CountryOfCitizenship
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">
+								<Code>111</Code>
+								<CountryName>AAAAAAA</CountryName>
+							</CountryOfCitizenship>
+							<DisplaySequenceNo
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">1</DisplaySequenceNo>
+						</CountryOfCitizenship>
+						<CountryOfCitizenship
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<CountryOfCitizenshipKey
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<CountryOfCitizenship
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<DisplaySequenceNo
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">2</DisplaySequenceNo>
+						</CountryOfCitizenship>
+						<CountryofResidence
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<Code xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">111</Code>
+						</CountryofResidence>
+						<ControlPerson xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<CompanyName />
+							<StockSymbol />
+						</ControlPerson>
+						<DateOfBirth xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">1111-11-11</DateOfBirth>
+						<DeceasedInd xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<Employment xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<ClientSpouseFinInstEmpCode />
+							<ClientSpouseFinInstEmpName />
+							<ClientOtherMemFinInstEmpName />
+							<EmployerAddress>
+								<SaaInd xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							</EmployerAddress>
+							<EmployerPhone />
+							<EmployerIndustry />
+							<FormerEmployer />
+							<Occupation />
+						</Employment>
+						<GreenCardInd xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">N</GreenCardInd>
+						<MLSRO xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<Passport xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<PassportInfoKey
+								xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							<Country xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						</Passport>
+						<Spouse xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<SpouseClientId />
+							<SpouseName>
+								<NameTypeKey
+									xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<FirstName xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<LastName xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<MiddleName
+									xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Suffix xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Suffix xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Title xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+							</SpouseName>
+							<SpouseEmpStatusCode />
+							<SpouseEmpName />
+							<TaxId />
+							<ClientStatus />
+						</Spouse>
+						<PersonRelationShip
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<Trading xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common">
+							<ProductExperience>
+								<MutualFunds
+									xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Equities xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<LimitedPartnerShips
+									xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Bonds xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Options xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<Futures xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes" />
+								<None xmlns:ns4="urn:schemas-ml-com:framework-dataservices-basetypes">X</None>
+							</ProductExperience>
+							<TradingExperience>N</TradingExperience>
+							<TradingFrequency />
+						</Trading>
+						<ClientAffiliation
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common"
+							txType="N">
+							<GroupTypeCode>ARS</GroupTypeCode>
+						</ClientAffiliation>
+						<ClientAffiliation
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common"
+							txType="N">
+							<GroupTypeCode>PAGP</GroupTypeCode>
+						</ClientAffiliation>
+					</Person>
+					<ProfileType xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">I</ProfileType>
+					<SourceofRelationShip
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<ReferredByName xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+						<ReferralRelationshipToClient
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-common" />
+					</SourceofRelationShip>
+					<TaxId xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Id xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">111111111</Id>
+						<TaxIDType xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">SSN</TaxIDType>
+						<ApplicationDate
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">1111-11-11</ApplicationDate>
+					</TaxId>
+					<Telephone xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<Telephone xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<Telephone xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<Assistant xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<FinancialInstitution
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">DLACT</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">MLOL</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">QRTSTMT</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">PERFREPT</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">PROSPECT</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">SERVNOTC</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">SHARNOTC</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">STATMENT</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">TAXREPTG</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<Preference xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<PreferenceTypeCode
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">CONFIRMS</PreferenceTypeCode>
+						<PreferenceConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</Preference>
+					<VerificationOfLegalStatus
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<MOVCode xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<MOVText xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<MOVDate xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">1111-11-11</MOVDate>
+					</VerificationOfLegalStatus>
+					<GovernmentIdentification
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<GovernmentIdentificationKey
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<Country xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<Expires xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">1111-11-11</Expires>
+						<Issued xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">1111-11-11</Issued>
+					</GovernmentIdentification>
+					<PartyProfileFinancialInfo
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<SourceOfIncome
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<SourceOfWealth
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes">
+							<SOWInheritanceDetail />
+						</SourceOfWealth>
+					</PartyProfileFinancialInfo>
+					<ProfileNoteInfo
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<ChannelSegmentationCode
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">2</ChannelSegmentationCode>
+					<EmailAddressPreference
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<EmailAddressKey
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+						<ProfileConsent
+							xmlns:ns3="urn:schemas-ml-com:framework-dataservices-basetypes" />
+					</EmailAddressPreference>
+					<OnboardRiskRanking
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<DynamicRiskRanking
+						xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<ProfileRefresh xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<LastProfileRefreshAssociateID>
+							<PersonNumber />
+						</LastProfileRefreshAssociateID>
+					</ProfileRefresh>
+					<AMLQuestions xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<Extension />
+					</AMLQuestions>
+					<AMLPartyDetail xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile">
+						<SourceOfWealthMethodOfVerification />
+					</AMLPartyDetail>
+					<AMLOrgDetail xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+					<Extension xmlns:ns2="urn:schemas-ml-com:framework-dataservices-profile" />
+				</Profile>
+				<CapacityDetailsArray>
+					<CapacityDetails>
+						<PartySequenceNumbers>
+							<SequenceNumber>4</SequenceNumber>
+							<ParentSequenceNumber>1</ParentSequenceNumber>
+						</PartySequenceNumbers>
+						<ParticipantCategory>O</ParticipantCategory>
+						<IsPrimary>N</IsPrimary>
+						<Capacity>RETBEN</Capacity>
+						<IsCapacityProfiled>N</IsCapacityProfiled>
+						<FARegistrationCheckRequired>N</FARegistrationCheckRequired>
+						<BeneficiaryDetails>
+							<Relationship>N</Relationship>
+							<Type>C</Type>
+							<Percent>50</Percent>
+							<BeneficiaryDesignation>N</BeneficiaryDesignation>
+						</BeneficiaryDetails>
+						<IsPrimaryMailingRole>N</IsPrimaryMailingRole>
+						<AMLRoleCode>N</AMLRoleCode>
+						<IsSignatory />
+						<ProfilingClassificationCode>
+							<Code>MCIP</Code>
+						</ProfilingClassificationCode>
+						<GFCCCustomerIndicator>N</GFCCCustomerIndicator>
+					</CapacityDetails>
+				</CapacityDetailsArray>
+				<AccountFeatures>
+					<SequenceNumber>0</SequenceNumber>
+				</AccountFeatures>
+				<NRAData />
+				<AMLVerificationInfo>
+					<AMLFlag>N</AMLFlag>
+					<RoutingCode>MGR</RoutingCode>
+					<StatusArray />
+				</AMLVerificationInfo>
+				<WipPartyIndex>3</WipPartyIndex>
+				<ConfidenceLevel />
+				<FAInfo>
+					<Name
+						xmlns:ns2="http://schemas.ml.com/CCP/Account/Datatypes/PartyDatatypes_v1_2/" />
+					<PhoneNumber
+						xmlns:ns2="http://schemas.ml.com/CCP/Account/Datatypes/PartyDatatypes_v1_2/" />
+					<OfficeName
+						xmlns:ns2="http://schemas.ml.com/CCP/Account/Datatypes/PartyDatatypes_v1_2/" />
+				</FAInfo>
+				<PrefillProfileInfo />
+				<ProfilingClassificationCode>
+					<Code>MCIP</Code>
+				</ProfilingClassificationCode>
+			</BrokeragePartyProfile>
+		</BrokeragePartyProfileArray>
+	</PartyRelationshipInfo>
+	<AccountInfo>
+		<AccountGroup>3</AccountGroup>
+		<DiscreteProductType>T07</DiscreteProductType>
+		<ProductCategory>IRA</ProductCategory>
+		<AccountType>SN</AccountType>
+		<OwnershipType>07</OwnershipType>
+		<MLProducerID>11X1111</MLProducerID>
+		<AccountNickname />
+		<NewAccountNumber />
+		<TransferredFromAccountNumber />
+		<JointRelationshipType />
+		<IsSpecialForeignPoliticalFigure>N</IsSpecialForeignPoliticalFigure>
+		<IsEnhanceDueDiligence>N</IsEnhanceDueDiligence>
+		<ClassFlag>D</ClassFlag>
+		<CAROIndicator />
+		<IsMLEmployee>Y</IsMLEmployee>
+		<AccountRiskFactor />
+		<InvestmentObjectives />
+		<TradeType />
+		<DividendInterestUsage>H</DividendInterestUsage>
+		<ConfidentialIndicator />
+		<AutoJEAccount />
+		<RelationshipSource />
+		<StatementFrequency />
+		<PaymentDetails />
+		<PowerOfAttorneyIndicator />
+		<InvestmentAdvisorIndicator />
+		<NeitherPOANorIAIndicator />
+		<InternationHoldAllMail />
+		<RCMAPrototype />
+		<AssetPower />
+		<MLAPExceptionPortfolio />
+		<Stencil
+			xmlns:ns1="http://schemas.ml.com/CCP/Account/Objects/Stencil/Stencil_v1_0/">
+			<MailingAddress>
+				<ResidentialInd
+					xmlns:ns2="http://schemas.ml.com/CCP/Account/Datatypes/Datatypes_v1_2/">true</ResidentialInd>
+			</MailingAddress>
+			<AdvancedBarcode />
+			<StencilReferenceID />
+			<StencilReferenceType />
+			<SelectedAddressType />
+			<StencilInfo>
+				<MailingLabel>
+					<MailingLabelLine />
+					<MailingLabelLineTypeCode />
+				</MailingLabel>
+				<StencilLineInfo>
+					<StencilLine />
+					<StencilLineTypeCode />
+				</StencilLineInfo>
+			</StencilInfo>
+		</Stencil>
+		<InvestorProfile />
+		<ConsultsIndicator />
+		<StrategyPowerIndicator />
+		<HighNetworthIndicator />
+		<KeyName>df</KeyName>
+		<NewClientIndicator>Y</NewClientIndicator>
+		<ExistingClientIndicator>N</ExistingClientIndicator>
+		<AcceleratedAccessToAssetsIndicator />
+		<DocumentTrackIndicator />
+		<PrivateWealthAdvisorIndicator />
+		<PandiCodeIndicator />
+		<WrapFeeIndicator />
+		<TrustAdvantageAccountIndicator />
+		<BeneficialOwnerIndicator />
+		<PlanTrackRelationship />
+		<PlanTrackAccountNumber />
+		<NonUSMember />
+		<SecurityLendIndicator />
+		<SecurityLendEligibilityIndicator />
+		<SecurityLendAffiliateRestrictionIndicator />
+		<SecurityMailLendingAgreementDirectIndicator />
+		<SpecialNeedsTrust />
+		<ClientClassCode />
+		<OutOfHouseIndicator />
+		<ClassActionLawSuitIndicator />
+		<DiscretionaryIndicator />
+		<MutualFundAdvisor />
+		<UGMAOrUTMAState />
+		<IsClientInContext />
+		<LegalState>NY</LegalState>
+		<LMAIndicator />
+		<LMAStatus />
+		<CustodialFeePaymentPreference>R</CustodialFeePaymentPreference>
+		<FeePaymentAccountNumber />
+		<AccountFiscalYearMonthNumber />
+		<AccountStatementMonthEndCode />
+		<AccountWaiveFeeIndicator />
+		<KeyAccountIndicator />
+		<TefraCode />
+		<AccountNumberGenerationMethodType />
+		<CloseTrait />
+		<MLDirectTrait>Y</MLDirectTrait>
+		<ReactivateAccountIndicator />
+		<VoluntaryContributionIndicator />
+		<ManagedSolutionProduct />
+		<PledgeCode />
+		<IsSubAccount />
+		<FeeRollUp />
+		<InheritedForceOut />
+		<CreateNew10X />
+		<IsInherited />
+		<NRAindicator />
+		<DelawareStatement />
+		<PreferredDeliveryAddress />
+		<PreferedDeliveryEmail />
+		<Preference>
+			<PreferenceTypeCode
+				xmlns:ns1="urn:schemas-ml-com:framework-dataservices-basetypes">STATMENT</PreferenceTypeCode>
+			<PreferenceValueCode
+				xmlns:ns1="urn:schemas-ml-com:framework-dataservices-basetypes">E</PreferenceValueCode>
+			<PreferenceConsent
+				xmlns:ns1="urn:schemas-ml-com:framework-dataservices-basetypes" />
+		</Preference>
+		<Preference>
+			<PreferenceTypeCode
+				xmlns:ns1="urn:schemas-ml-com:framework-dataservices-basetypes">CONFIRMS</PreferenceTypeCode>
+			<PreferenceValueCode
+				xmlns:ns1="urn:schemas-ml-com:framework-dataservices-basetypes">E</PreferenceValueCode>
+			<PreferenceConsent
+				xmlns:ns1="urn:schemas-ml-com:framework-dataservices-basetypes" />
+		</Preference>
+		<Preference>
+			<PreferenceTypeCode
+				xmlns:ns1="urn:schemas-ml-com:framework-dataservices-basetypes">PERFREPT</PreferenceTypeCode>
+			<PreferenceValueCode
+				xmlns:ns1="urn:schemas-ml-com:framework-dataservices-basetypes">E</PreferenceValueCode>
+			<PreferenceConsent
+				xmlns:ns1="urn:schemas-ml-com:framework-dataservices-basetypes" />
+		</Preference>
+		<Preference>
+			<PreferenceTypeCode
+				xmlns:ns1="urn:schemas-ml-com:framework-dataservices-basetypes">SHARNOTC</PreferenceTypeCode>
+			<PreferenceValueCode
+				xmlns:ns1="urn:schemas-ml-com:framework-dataservices-basetypes">E</PreferenceValueCode>
+			<PreferenceConsent
+				xmlns:ns1="urn:schemas-ml-com:framework-dataservices-basetypes" />
+		</Preference>
+		<Preference>
+			<PreferenceTypeCode
+				xmlns:ns1="urn:schemas-ml-com:framework-dataservices-basetypes">PROSPECT</PreferenceTypeCode>
+			<PreferenceValueCode
+				xmlns:ns1="urn:schemas-ml-com:framework-dataservices-basetypes">E</PreferenceValueCode>
+			<PreferenceConsent
+				xmlns:ns1="urn:schemas-ml-com:framework-dataservices-basetypes" />
+		</Preference>
+		<Preference>
+			<PreferenceTypeCode
+				xmlns:ns1="urn:schemas-ml-com:framework-dataservices-basetypes">SERVNOTC</PreferenceTypeCode>
+			<PreferenceValueCode
+				xmlns:ns1="urn:schemas-ml-com:framework-dataservices-basetypes">E</PreferenceValueCode>
+			<PreferenceConsent
+				xmlns:ns1="urn:schemas-ml-com:framework-dataservices-basetypes" />
+		</Preference>
+		<Preference>
+			<PreferenceTypeCode
+				xmlns:ns1="urn:schemas-ml-com:framework-dataservices-basetypes">TAXREPTG</PreferenceTypeCode>
+			<PreferenceValueCode
+				xmlns:ns1="urn:schemas-ml-com:framework-dataservices-basetypes">E</PreferenceValueCode>
+			<PreferenceConsent
+				xmlns:ns1="urn:schemas-ml-com:framework-dataservices-basetypes" />
+		</Preference>
+		<ClientAssetOOHIndicator />
+		<MasterExistsIndicator />
+		<ExternalAccountNumberStatusCode />
+		<DividendInterestUsagePrimaryMailing />
+		<CustodialIndicator />
+		<FACTrait />
+		<LinkDetail>
+			<UFDetail xmlns:ns1="urn:schemas-ml-com:framework-dataservices-basetypes">
+				<UFID>ssss</UFID>
+				<UFTKN>11A11A11AAA11A1AAA11A1A1111</UFTKN>
+			</UFDetail>
+			<Indicator xmlns:ns1="urn:schemas-ml-com:framework-dataservices-basetypes">N</Indicator>
+		</LinkDetail>
+		<MLOLNoneInd />
+		<StatementLinkingAccountNumber />
+		<MarginApprovedStatus />
+		<BOLTrait />
+		<EducationalState />
+		<TypeOf529Trait />
+		<PreferredOfficeNumber />
+		<PrivateFoundation />
+		<IncludePlanNameinStencil />
+		<LinkStatementToMasterIndicator />
+		<FAVisibilityIndicator />
+		<PerfRptIndicator>Y</PerfRptIndicator>
+		<WelcomeKitEligibility>N</WelcomeKitEligibility>
+		<TestTaxIdIndicator />
+		<RTAInd />
+		<ClientActStatus />
+		<AccountActStatus />
+		<AccountSubProductCode>ROTH</AccountSubProductCode>
+	</AccountInfo>
+</BrokerageAccount>
